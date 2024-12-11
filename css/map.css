@@ -1,0 +1,124 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+html, body{
+    height: 100%;
+    width: 100vw;
+} 
+
+#mapdiv {
+    height: 100vh;
+    width: 100vw;
+}
+
+.mrg-floatstop{
+	clear:both;
+}
+
+/* este trecho força os controles Easy Button a serem mostrados lado a lado */
+.leaflet-bar.easy-button-container.leaflet-control{
+	float: none;
+	clear:both;
+	display :inline-block;
+}
+
+/*Cores ------------*/
+.mrg-fg-green{color: #4CAF50;}
+.mrg-fg-blue{color: #2a7fff;}
+.mrg-fg-red{color: #ff2a2a;}
+.mrg-fg-white{color: white;}
+
+.mrg-bg-blue{background-color: #2a7fff;}
+
+.leaflet-control-locate {
+  border:1px solid rgba(0,0,0,0.4);
+  }
+.leaflet-control-locate a {
+  background-color:#fff;
+  background-position:-3px, -2px;
+  }
+.leaflet-control-locate.active a {
+  background-position:-33px -2px;
+  }
+
+
+
+#select-baselayers, #map-legend-title, #map-legend-btn{
+	display: inline-table;
+	vertical-align: middle;
+}
+
+
+.map-notes-icon{
+	font-size: 200%;
+	color: #43B043;
+	display: inline-table;
+	padding-right: 3px;
+	font-weight: bolder; 
+}
+
+.mrg-button-group{
+	text-align: center;
+}
+
+.mrg-button {
+	font-size: 24px;
+	background-color: #2a7fff;
+	border: none;
+	margin: 2px 1px;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;	
+	border-radius: 2px;
+	float: left;
+}
+
+.mrg-button-md {
+	font-size: 16px;
+	background-color: #2a7fff;
+	border: none;
+	margin: 2px 1px;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;	
+	border-radius: 2px;
+	float: left;
+}
+.mrg-button-md a, a:link, a:visited {
+  padding: 6px 6px;
+  color: white;
+}
+
+
+.mrg-button:hover {
+  background-color: #2affff;
+  -webkit-transition-duration: 0.4s; /* Safari */
+}
+.mrg-button  a:link, a:visited {
+  padding: 6px 6px;
+  color: white;
+}
+
+
+.mrg-display-latlon{
+	font-size: 16px;
+	font-family: Arial;
+}
+
+.button-extra{
+	height: 100px !important; width: 100px !important; 
+}
+
+.info { 
+ padding: 6px 8px;
+ font: 14px/16px Arial, Helvetica, sans-serif;
+ background: white;
+ background: rgba(255,255,255,0.8);
+ box-shadow: 0 0 15px rgba(0,0,0,0.2);
+ border-radius: 5px;
+ } .info h4 { margin: 0 0 5px;
+ color: #2a7fff;
+}
